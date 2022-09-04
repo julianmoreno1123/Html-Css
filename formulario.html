@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- SEO  -->
 
 <head>
     <!-- etiqueta para caracteres  -->
@@ -9,6 +10,16 @@
     <!-- etiqueta para configurar el tamaño de la pagina como el ancho del dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <!-- etiqueta para estilos -->
+    <style>
+        button {
+            background-color: aqua;
+            color: black;
+            /* los estilos en css son en cascada */
+            background-color: aqua;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,16 +29,17 @@
         <!-- En la etiqueta label el argumento for se usa para agregar texto -->
         <label for="Ingrese su numbre">
             <!-- En la etiqueta input el argumento placeholder se usa para agregar texto -->
-            <input placeholder="Ingrese su nombre" type="text">
-            <input type="number">
+            <!-- con style agregamos estilos en cada linea  -->
+            <input placeholder="Ingrese su nombre" type="text" style="background-color:red;color: azure;">
+            <input type="number" >
             <input type="date">
             <input type="email">
             <input type="password">
             <input type="checkbox">
             <input type="radio">
             <input type="file">
-            <input type="submit">
-            <input type="reset">
+            <button type="submit">
+            <button type="reset">
         </label>
     </form>
 </body>

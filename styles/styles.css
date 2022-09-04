@@ -1,0 +1,29 @@
+p {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: blue;
+}
+
+
+/*Etiqueta id*/
+
+#pa {
+    color: white;
+}
+
+.parrafo {
+    color: brown;
+}
+
+.imagenpequena {
+    height: 200px;
+}
+
+.texto {
+    font-size: x-large;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
