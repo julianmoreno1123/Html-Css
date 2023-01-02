@@ -18,34 +18,34 @@ body {
     height: 70px;
 }
 
-.mainbutton {
-    color: white;
-    background-color: darkgreen;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
     font-weight: bolder;
-    box-shadow: 2px 2px 2px green;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainbutton {
+    color: white;
+    background-color: darkgreen;
 }
 
 .mainbutton:hover {
-    cursor: pointer;
-    transform: scale(1.2);
+    box-shadow: green;
 }
 
 .secondarybutton {
     color: white;
     background-color: cadetblue;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-weight: bolder;
-    box-shadow: 2px 2px 2px cornflowerblue;
 }
 
 .secondarybutton:hover {
-    cursor: pointer;
-    transform: scale(1.2);
+    box-shadow: cornflowerblue;
 }
 
 .buscar {
