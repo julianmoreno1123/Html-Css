@@ -1,42 +1,65 @@
-p {
-    background-color: blueviolet;
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-h1 {
-    color: blue;
+body {
+    margin: 0px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
 
-/*Etiqueta id*/
+.logo {
+    height: 70px;
+}
 
-#pa {
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainbutton {
     color: white;
+    background-color: darkgreen;
 }
 
-.parrafo {
-    color: brown;
+.mainbutton:hover {
+    box-shadow: green;
 }
 
-.imagenpequena {
-    height: 200px;
+.secondarybutton {
+    color: white;
+    background-color: cadetblue;
 }
 
-.texto {
-    font-size: x-large;
-    font-weight: 300;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+.secondarybutton:hover {
+    box-shadow: cornflowerblue;
 }
 
-.parrafoangosto {
-    width: 1000px;
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
 }
 
-.contenedor {
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-    margin-right: 50px;
-    border: 2px solid red;
-    padding: 10px;
+.buscar>input {
+    outline: none;
+    border: 0px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue
 }
