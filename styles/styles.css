@@ -11,4 +11,55 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.mainbutton {
+    color: white;
+    background-color: darkgreen;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px green;
+}
+
+.mainbutton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.secondarybutton {
+    color: white;
+    background-color: cadetblue;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.secondarybutton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar>input {
+    outline: none;
+    border: 0px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue
 }
