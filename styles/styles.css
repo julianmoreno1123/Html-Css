@@ -78,3 +78,12 @@ body {
 .iconobusqueda:hover {
     color: blue;
 }
+
+.contenedorimagen {
+    height: 350px;
+    display: flex;
+}
+
+.contenedorimagen>img {
+    object-fit: cover;
+}
