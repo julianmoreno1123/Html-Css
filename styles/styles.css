@@ -12,6 +12,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    background-color: rgb(238, 238, 238);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar>li {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -53,6 +61,9 @@ body {
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar>input {
@@ -62,4 +73,8 @@ body {
 
 .buscar:focus-within {
     border: 1px solid blue
+}
+
+.iconobusqueda:hover {
+    color: blue;
 }
